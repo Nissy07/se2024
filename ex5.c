@@ -2,6 +2,9 @@
 
 int main(void) {
   int i;
-  for (i = 0; i < 5; i++) printf("number = %d", i);
+  while (i < 5) {
+    printf("number = %d", i);
+    i++;
+  }
   return 0;
 }
