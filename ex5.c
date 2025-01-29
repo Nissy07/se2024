@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-  int i = 10;
-  printf("number = %d", i);
+  int i;
+  for (i = 0; i < 5; i++) printf("number = %d", i);
   return 0;
 }
